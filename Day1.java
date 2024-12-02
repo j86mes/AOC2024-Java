@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 
 class Day1 {
     public static void main(String[] args) throws IOException {
-        var file = new File("inputs"+File.separator+"input-task1.txt");
+        var file = new File("inputs"+File.separator+"input-day1.txt");
 
         System.out.println(String.format("Reading file: %s", file.getAbsolutePath())); 
         var fileReader = new RandomAccessFile(file, "r");
