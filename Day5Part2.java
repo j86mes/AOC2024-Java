@@ -99,10 +99,8 @@ class Day5Part2 {
                 }
             }
             if(!valid){
-                //fix
-
+                //fix then tally
                 var reordered = reorder(manual, rules);
-
                 totalValidMiddles += reordered.get(reordered.size()/2);
             }
         }
